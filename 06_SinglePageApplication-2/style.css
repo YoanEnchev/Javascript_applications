@@ -1,0 +1,60 @@
+.advert {
+    border: 2px solid black;
+    width: 250px;
+    height: 400px;
+    transition: all .2s ease-in-out;
+}
+
+.advert img {
+    width: 250px;
+    height: 250px;
+}
+
+.description {
+    width: 220px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.price {
+    text-align: center;
+}
+
+button.viewDetails {
+    text-align: center;
+    width: 200px;
+    height: 30px;
+    background: rgba(0, 0, 200, 0.5);
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 0 auto;
+    color: white;
+}
+
+.centerInsideAd {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:15px;
+}
+
+.centerAllAds {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+
+.advert:hover {
+    position: relative;
+    transform: scale(1.1, 1.1);
+}
+
+button.viewDetails:hover {
+    background: red;
+    cursor: pointer;
+}
+
+.grow:hover { transform: scale(1.1); }
