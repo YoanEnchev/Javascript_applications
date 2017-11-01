@@ -1,0 +1,39 @@
+section#viewDetails {
+    height: 240px;
+}
+
+section#viewDetails * {
+    margin-top: 10px;
+}
+
+section#viewDetails article img {
+    width: 180px;
+    height: 180px;
+    float: left;
+}
+
+section#viewDetails h1 {
+    margin-left: 50px;
+    letter-spacing: 1px;
+    font-size: 25px;
+}
+
+section#viewDetails input[type=button] {
+    border: none;
+    border-radius: 10px;
+}
+
+#editBtn {
+    background: darkblue;
+    margin-left: 0px;
+}
+
+#deleteBtn {
+    background: red;
+    margin-left:0;
+}
+
+#otherAds {
+    background: #333333;
+    margin-left: 0px;
+}
